@@ -2,7 +2,7 @@
 
 This is a simple .WAV file resampler for burning .wav files to a CD.
 It takes an imput directory (containing all of the .wav files you want resampled),
-tells you each individual songs sample rate in their naitive form,
+tells you each individual songs sample rate in its naitive form,
 then pipes resampled duplicates of every .WAV file into the same directory as the originals, 
 resampled to 44.1 kHZ (The only sample rate witch with .WAV files can be burned on a CD)
 
