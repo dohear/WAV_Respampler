@@ -8,13 +8,13 @@ resampled to 44.1 kHZ (The only sample rate witch with .WAV files can be burned 
 
 # How to:
 
-- Install the requirements found in __requirements.txt__
+- Install the requirements found in `requirements.txt`
 
 - Set up your file structure 
-    note: sourcefiles must be named sourcefiles, 
+    (note: sourcefiles must be named sourcefiles, 
     otherwise you have to alter the code's source_dir 
     variable to match the path to your directory 
-    containing the target .WAV files
+    containing the target .WAV files)
 
 ```plaintext
 arbitrary directory/
@@ -32,8 +32,8 @@ arbitrary directory/
     python samplerate.py
 ```
 
-- after the code has finished running your __sourcefiles__ directory
+- after the code has finished running your `sourcefiles` directory
 should contain all of the resampled .WAV files, indicated by the prefix
-__'resampled_'__, along with the originals in their raw unmodified forms
+`resampled_`, along with the originals in their raw unmodified forms
 
 
