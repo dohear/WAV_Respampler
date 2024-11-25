@@ -11,7 +11,7 @@ resampled to 44.1 kHZ (The only sample rate witch with .WAV files can be burned 
 - Install the requirements found in __requirements.txt__
 
 - Set up your file structure 
-    - note: sourcefiles must be named sourcefiles, 
+    note: sourcefiles must be named sourcefiles, 
     otherwise you have to alter the code's source_dir 
     variable to match the path to your directory 
     containing the target .WAV files
